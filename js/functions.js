@@ -25,8 +25,8 @@ function getMoveName(argMoveId){
 	}
   
   
-  function displayResult(ComputerMove, PlayerMove){
-	printMessage('Zagrałem ' + ComputerMove + ', a Ty ' + PlayerMove);
+  function displayResult(computerMove, playerMove){
+	printMessage('Zagrałem ' + computerMove + ', a Ty ' + playerMove);
   
 	if(( computerMove == 'kamień' && playerMove == 'papier')||
     (computerMove == 'nożyce' && playerMove == 'kamień')||
