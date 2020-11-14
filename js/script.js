@@ -1,3 +1,4 @@
+{
 let playerScore = 0;
 let computerScore = 0;
 
@@ -39,9 +40,9 @@ function playGame(playerInput) {
   printMessage('Gracz ' + playerScore + ' Komputer ' + computerScore);
 
 }
-while (playerScore < 1000) {
-  playGame(1);
-}
+// while (playerScore < 1000) {
+//   playGame(1);
+// }
 
 document.getElementById('kamień').addEventListener('click', function () {
   playGame(1);
@@ -52,5 +53,5 @@ document.getElementById('papier').addEventListener('click', function () {
 document.getElementById('nożyce').addEventListener('click', function () {
   playGame(3);
 });
-
+}
 
